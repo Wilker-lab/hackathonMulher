@@ -19,6 +19,7 @@ import { InstituicaoCardComponent } from './componentes/instituicao-card/institu
 import {MatCardModule} from '@angular/material/card';
 
 import { HttpClientModule } from '@angular/common/http';
+import { LeisCardComponent } from './componentes/leis-card/leis-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     LeisPageComponent,
     InstituicoesPageComponent,
     MenuComponent,
-    InstituicaoCardComponent
+    InstituicaoCardComponent,
+    LeisCardComponent
   ],
   imports: [
     BrowserModule,
