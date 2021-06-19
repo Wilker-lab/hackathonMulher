@@ -11,10 +11,6 @@
   margin: 20px;
 }
 
-.topo img {
-  width: 150px;
-}
-
 .home {
   margin: 20px;
   color: white;
@@ -31,7 +27,7 @@ h1 {
 
 }
 
-.home i {
+.topo i {
   font-size: 50px;
   margin-top: -20px;
   color: #9C27B0;
