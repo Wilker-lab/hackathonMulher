@@ -35,9 +35,9 @@ export class SlideSobreComponent implements OnInit {
 
   ngOnInit(): void {
     this.imagens =[
-      "https://br.freepik.com/fotos-premium/pessoas-empilhando-maos-como-um-equipe_3729828.htm",
-      "https://br.freepik.com/vetores-gratis/mulheres-fazendo-coisas_3516296.htm",
-      "https://br.freepik.com/vetores-gratis/grupo-internacional-de-mulheres-com-design-plano_3253702.htm"
+      "https://www.defensoria.rs.def.br/upload/recortes/202003/05101833_66361_GD.png",
+      "https://www.otaboanense.com.br/wp-content/uploads/2020/03/programacao_mes_da_mulher_embu2.jpg",
+      "https://www.sinjus.org.br/wp-content/uploads/img_noticia_mes_mulher.jpg"
 
     ]
   }
