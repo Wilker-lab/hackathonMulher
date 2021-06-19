@@ -4,6 +4,7 @@ import { MenuComponent } from './componentes/menu/menu.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SobrePageComponent } from './componentes/sobre-page/sobre-page.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path:"leis",
         component: LeisPageComponent
+      },
+      {
+        path:"sobre",
+        component: SobrePageComponent
       }
     ]
   }

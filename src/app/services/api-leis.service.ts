@@ -12,7 +12,7 @@ export class ApiLeisService {
 
   private apiLeisUrl = 'https://it3-klj-default-rtdb.firebaseio.com/leisMulheres.json';
 ​
-   public get(): Observable<LeisApiModel[]> {
+  public get(): Observable<LeisApiModel[]> {
     return this.http.get<LeisApiModel[]>(this.apiLeisUrl);
   }
 }

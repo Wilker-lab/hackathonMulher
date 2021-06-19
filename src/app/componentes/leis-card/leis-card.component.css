@@ -1,0 +1,22 @@
+.mat {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
