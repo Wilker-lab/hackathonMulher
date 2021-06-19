@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+}
+
 .home {
   margin: 20px;
   color: white;
@@ -87,5 +91,5 @@ p {
 }
 
 .icone:hover {
-  
+  background-color: #3d1344;
 }
