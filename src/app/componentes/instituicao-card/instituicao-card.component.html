@@ -1,0 +1,18 @@
+<mat-card>
+	<img [src]="instituicao?.imagem">
+
+  <mat-card-content>
+    <h1>
+      {{instituicao?.nome}}
+    </h1>
+    <p>
+      {{instituicao?.descricao}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button><a [href]="instituicao?.site" target="_blank">Clique para acessar o site</a></button>
+  </mat-card-actions>
+
+</mat-card>
+
+
