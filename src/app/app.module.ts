@@ -20,6 +20,7 @@ import {MatCardModule} from '@angular/material/card';
 
 import { HttpClientModule } from '@angular/common/http';
 import { SobrePageComponent } from './componentes/sobre-page/sobre-page.component';
+import { LeisCardComponent } from './componentes/leis-card/leis-card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SobrePageComponent } from './componentes/sobre-page/sobre-page.componen
     InstituicoesPageComponent,
     MenuComponent,
     InstituicaoCardComponent,
-    SobrePageComponent
+    SobrePageComponent,
+    LeisCardComponent
   ],
   imports: [
     BrowserModule,
