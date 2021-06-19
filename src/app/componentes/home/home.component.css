@@ -1,6 +1,7 @@
 .home {
   margin: 20px;
   color: white;
+  text-decoration: none;
 }
 
 .infos {
@@ -10,13 +11,18 @@
   margin-bottom: 20px;
 }
 
+.home h1 {
+  font-size: 22px;
+}
+
 h1,
 .botoes-menu p,
-.final {
+.final p {
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  color: #9C27B0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
   text-transform: uppercase;
   text-align: center;
 }
@@ -24,6 +30,8 @@ h1,
 p {
   font-size: 20px;
   text-align: center;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 .final {
@@ -33,11 +41,11 @@ p {
 
 .destaque p {
   text-transform: uppercase;
-  color: #9C27B0;
+  color: white;
   font-weight: 800;
-  background-color: #FAFF00;
+  background-color: #9C27B0;
   padding: 10px;
-  width: 50vw;
+  width: 35vw;
 }
 
 .botoes-menu {
@@ -68,4 +76,16 @@ p {
 .botoes-menu .botao-instituicao .icone i,
 .botoes-menu .botao-leis .icone i {
   font-size: 30px;
+}
+
+.botoes-menu .botao-instituicao,
+.botoes-menu .botao-leis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icone:hover {
+  
 }
