@@ -15,7 +15,7 @@ const routes: Routes = [
         component: HomeComponent
       },
       {
-        path:"intituicoes",
+        path:"instituicoes",
         component: InstituicoesPageComponent
       },
       {
