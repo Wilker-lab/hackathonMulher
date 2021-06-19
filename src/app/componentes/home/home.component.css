@@ -1,11 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   text-decoration: none;
+}
+
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.topo img {
+  width: 150px;
 }
 
 .home {
   margin: 20px;
   color: white;
   text-decoration: none;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  font-size: 35px;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-right: 10px;
+
+}
+
+.home i {
+  font-size: 50px;
+  margin-top: -20px;
+  color: #9C27B0;
 }
 
 .infos {
@@ -15,11 +44,11 @@
   margin-bottom: 20px;
 }
 
-.home h1 {
+.home h2 {
   font-size: 22px;
 }
 
-h1,
+h2,
 .botoes-menu p,
 .final p {
   font-family: 'Roboto', sans-serif;
@@ -55,6 +84,7 @@ p {
 .botoes-menu {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .botoes-menu p {
