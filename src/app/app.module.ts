@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SobrePageComponent } from './componentes/sobre-page/sobre-page.component';
 import { LeisCardComponent } from './componentes/leis-card/leis-card.component';
 import { TopoComponent } from './componentes/topo/topo.component';
+import { SlideSobreComponent } from './componentes/slide-sobre/slide-sobre.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TopoComponent } from './componentes/topo/topo.component';
     InstituicaoCardComponent,
     SobrePageComponent,
     LeisCardComponent,
-    TopoComponent
+    TopoComponent,
+    SlideSobreComponent
   ],
   imports: [
     BrowserModule,
