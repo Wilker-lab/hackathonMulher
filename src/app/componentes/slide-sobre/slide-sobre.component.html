@@ -1,0 +1,13 @@
+<div id="div-1">
+  <button (click)="Anterior()">
+    <
+  </button>
+
+  <div *ngFor="let item of imagens; let i = index">
+    <img [src]="item" *ngIf="i === imagemAtual">
+  </div>
+
+  <button (click)="Proximo()">
+    >
+  </button>
+</div>

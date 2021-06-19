@@ -19,6 +19,10 @@ import { InstituicaoCardComponent } from './componentes/instituicao-card/institu
 import {MatCardModule} from '@angular/material/card';
 
 import { HttpClientModule } from '@angular/common/http';
+import { SobrePageComponent } from './componentes/sobre-page/sobre-page.component';
+import { LeisCardComponent } from './componentes/leis-card/leis-card.component';
+import { TopoComponent } from './componentes/topo/topo.component';
+import { SlideSobreComponent } from './componentes/slide-sobre/slide-sobre.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { HttpClientModule } from '@angular/common/http';
     LeisPageComponent,
     InstituicoesPageComponent,
     MenuComponent,
-    InstituicaoCardComponent
+    InstituicaoCardComponent,
+    SobrePageComponent,
+    LeisCardComponent,
+    TopoComponent,
+    SlideSobreComponent
   ],
   imports: [
     BrowserModule,
