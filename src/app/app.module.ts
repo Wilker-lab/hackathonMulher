@@ -21,6 +21,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { SobrePageComponent } from './componentes/sobre-page/sobre-page.component';
 import { LeisCardComponent } from './componentes/leis-card/leis-card.component';
+import { TopoComponent } from './componentes/topo/topo.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { LeisCardComponent } from './componentes/leis-card/leis-card.component';
     MenuComponent,
     InstituicaoCardComponent,
     SobrePageComponent,
-    LeisCardComponent
+    LeisCardComponent,
+    TopoComponent
   ],
   imports: [
     BrowserModule,
