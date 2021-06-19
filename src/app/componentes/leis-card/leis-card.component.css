@@ -6,17 +6,9 @@ h1 {
   font-size: 30px;
 }
 
-p {
-  font-size: med;
-}
-
-a {
-  background-color: rgb(150, 76, 219);
+button a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
-  border-radius: 15px;
-  margin: 0px;
 }
 
 .bottom-card {
